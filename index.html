@@ -24,17 +24,15 @@
     ></script>
     <script>
   // Definiamo un oggetto LandingPage minimale per evitare il crash
-  window.LandingPage = {
-    pipelineModule: function() {
-      return {
-        name: 'landing-page',
-        onStart: () => { console.log("LandingPage pipeline avviata"); }
+      window.LandingPage = {
+        pipelineModule: function() {
+          return {
+            name: 'landing-page',
+            onStart: () => { console.log("LandingPage pipeline avviata"); }
+          };
+        }
       };
-    }
-  };
-</script>
-  </head>
-  <body>
+    </script>
     <script src="bundle.js"></script>
   </body>
 </html>
