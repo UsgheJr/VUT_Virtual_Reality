@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 19,
+    "width": 494,
+    "height": 659,
+    "isRotated": false,
+    "originalWidth": 533,
+    "originalHeight": 659
+  },
+  "imagePath": "image-targets/provaAR_luminance.png",
+  "metadata": null,
+  "name": "provaAR",
+  "resources": {
+    "originalImage": "provaAR_original.png",
+    "croppedImage": "provaAR_cropped.png",
+    "thumbnailImage": "provaAR_thumbnail.png",
+    "luminanceImage": "provaAR_luminance.png"
+  },
+  "created": 1788813796394,
+  "updated": 1788813796394
+}
