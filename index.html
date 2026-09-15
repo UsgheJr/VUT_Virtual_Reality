@@ -22,6 +22,17 @@
       async="true"
       data-preload-chunks="face, slam"
     ></script>
+    <script>
+  // Definiamo un oggetto LandingPage minimale per evitare il crash
+  window.LandingPage = {
+    pipelineModule: function() {
+      return {
+        name: 'landing-page',
+        onStart: () => { console.log("LandingPage pipeline avviata"); }
+      };
+    }
+  };
+</script>
   </head>
   <body>
     <script src="bundle.js"></script>
